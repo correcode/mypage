@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo{
+  flex: 20%;
+  margin-left: 10px;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.logo h1{
+  font-family: "Lobster", sans-serif;
+  color: black;
+  font-size: 34px;
+  text-shadow: 3px 3px 3px gray;
+}
+
+.menu{
+  flex: 70%;
+  /* border: 1px solid green; */
+  text-align: right;
+  padding: 20px;
+}
+
+.menu a{
+  color:  black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 16px;
+}
+
+.menu a:hover{
+  color: red;
+  border-top: 4px solid red;
+}
+
+#botao{
+  background-color: black;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10%;
+  margin-left: 5px;
+}
+
+#botao:hover{
+  border: none;
+  background-color: red;
+}
+
+.header{
+  background-color: #3333336b;
+  margin-top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+
+.headline{
+  flex: 40%;
+  margin-left: 10%;
+  /* border: 1px solid black; */
+}
+
+.headline h2{
+  text-shadow: 2px 2px 2px black;
+  font-family: "Lobster", sans-serif;
+
+}
+
+.headline p{
+  color: rgba(0, 0, 0, 0.568);
+  text-align: left;
+}
+
+.img-headline{
+  flex: 40%;
+  margin-right: 10%;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+#linkedin{
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 5px 5px 3px black;
+}
+
+.section {
+  /* border: 1px solid black; */
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+  display: inline-block;
+  width: 90%;
+}
+
+.section h2{
+  width: 100%;
+  font-size: 30px;
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  text-align: center;
+  padding: 5%;
+}
+
+.servicos{
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.card{
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#set{
+  width: 30px;
+}
+
+.card:hover{
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+
+.card:hover img{
+  display: none;
+}
+
+.card:hover .cardtext{
+  display: none;
+}
+
+.card:hover .textooculto{
+  display: block;
+}
+
+.textooculto{
+  display: none;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  height: 100px;
+  text-align: center;
+  background-color: #3333336b;
+  color: white;
+  border-top: 2px solid black;
+}
+
+.fot{
+  text-shadow: 2px 2px 1px black;
+}
